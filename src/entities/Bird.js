@@ -78,7 +78,7 @@
                     }
                     break;
                 case "DYING":
-                    this.nextWord = "by mr speaker";
+                    this.nextWord = "";
                     this.ac = Math.min(this.ac + 0.4, 10);
                     if (this.y < Ω.env.h - 112 - this.h) {
                         this.y += this.ac;
